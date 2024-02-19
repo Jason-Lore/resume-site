@@ -1,0 +1,19 @@
+{
+    "certifications": [
+      {
+        "certificationName": "MS-900",
+        "dateOfCompletion": "2024-02-03",
+        "linkToOnlineCert": "https://learn.microsoft.com/en-us/users/jasonlearn-7194/credentials/certification/microsoft-365-fundamentals",
+        "msftImage": "https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg?branch=main",
+        "msftDescription": "Microsoft 365 Certified: Fundamentals"
+      },
+      {
+        "certificationName": "SC-900",
+        "dateOfCompletion": "2024-02-12",
+        "linkToOnlineCert": "https://learn.microsoft.com/en-us/users/jasonlearn-7194/credentials/certification/security-compliance-and-identity-fundamentals",
+        "msftImage": "https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg?branch=main",
+        "msftDescription": "Microsoft Certified: Security, Compliance, and Identity Fundamentals"
+      }
+    ]
+  }
+  
