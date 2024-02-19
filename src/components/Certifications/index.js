@@ -25,14 +25,14 @@ let Certifications = () => {
                             <p style={{color: 'black'}}>{cert.msftDescription}</p>
                         </div>
                         <div class="uk-card-footer">
-                            <a href={cert.linkToOnlineCert} target="_blank" class="uk-button uk-button-text" style={{color: 'black'}}>View Certification</a>
+                            <a href={cert.linkToOnlineCert} target="_blank" rel="noreferrer" class="uk-button uk-button-text" style={{color: 'black'}}>View Certification</a>
                         </div>
                     </div>
                     ))}
                 </div>
 
-                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href='/' uk-slidenav-previous='' uk-slider-item="previous"></a>
-                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href='/' uk-slidenav-next='' uk-slider-item="next"></a>
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href='/' uk-slidenav-previous='' uk-slider-item="previous" alt='Previous'></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href='/' uk-slidenav-next='' uk-slider-item="next" alt='Next'></a>
 
             </div>
         </section>
