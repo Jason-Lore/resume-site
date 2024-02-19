@@ -9,15 +9,30 @@ let Certifications = () => {
 
                 <div className="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
                     {certificationData.certifications.map((cert, index) => (
-                        <div class="uk-card uk-card-hover uk-card-body">
-                            <h3 class="uk-card-title" style={{ color: "black" }}>{cert.certificationName}</h3>
-                            <p>{cert.msftDescription}</p>
+                        <div key={index}>
+                        <div class="uk-card-header">
+                            <div class="uk-grid-small uk-flex-middle" uk-grid=''>
+                                <div class="uk-width-auto">
+                                    <img class="uk-border-circle" width="40" height="40" src={cert.msftImage} alt="Avatar" />
+                                </div>
+                                <div class="uk-width-expand">
+                                    <h3 class="uk-card-title uk-margin-remove-bottom" style={{color: 'black'}}>{cert.certificationName}</h3>
+                                    <p class="uk-text-meta uk-margin-remove-top" style={{color: 'black'}}><time datetime={cert.dateOfCompletion}>{cert.dateOfCompletion}</time></p>
+                                </div>
+                            </div>
                         </div>
+                        <div class="uk-card-body">
+                            <p style={{color: 'black'}}>{cert.msftDescription}</p>
+                        </div>
+                        <div class="uk-card-footer">
+                            <a href={cert.linkToOnlineCert} target="_blank" class="uk-button uk-button-text" style={{color: 'black'}}>View Certification</a>
+                        </div>
+                    </div>
                     ))}
                 </div>
 
-                <a className="uk-position-center-left uk-position-small uk-hidden-hover" href='/' uk-slidenav-previous='' uk-slider-item="previous"></a>
-                <a className="uk-position-center-right uk-position-small uk-hidden-hover" href='/' uk-slidenav-next='' uk-slider-item="next"></a>
+                <a className="uk-position-center-left uk-position-small uk-hidden-hover" href='/' uk-slidenav-previous='' uk-slider-item="previous" alt='Previous'></a>
+                <a className="uk-position-center-right uk-position-small uk-hidden-hover" href='/' uk-slidenav-next='' uk-slider-item="next" alt='Next'></a>
 
             </div>
         </section>
