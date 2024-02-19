@@ -31,8 +31,8 @@ let Certifications = () => {
                     ))}
                 </div>
 
-                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href='/' uk-slidenav-previous='' uk-slider-item="previous" alt='Previous'></a>
-                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href='/' uk-slidenav-next='' uk-slider-item="next" alt='Next'></a>
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href='/' uk-slidenav-previous='' uk-slider-item="previous" alt='Previous'>Previous</a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href='/' uk-slidenav-next='' uk-slider-item="next" alt='Next'>Next</a>
 
             </div>
         </section>
