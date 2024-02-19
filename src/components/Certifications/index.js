@@ -13,7 +13,7 @@ let Certifications = () => {
                         <div class="uk-card-header">
                             <div class="uk-grid-small uk-flex-middle" uk-grid=''>
                                 <div class="uk-width-auto">
-                                    <img class="uk-border-circle" width="40" height="40" src={cert.msftImage} alt="Avatar" />
+                                    <img class="uk-border-circle" width="50" height="50" src={cert.msftImage} alt="Avatar" />
                                 </div>
                                 <div class="uk-width-expand">
                                     <h3 class="uk-card-title uk-margin-remove-bottom" style={{color: 'black'}}>{cert.certificationName}</h3>
