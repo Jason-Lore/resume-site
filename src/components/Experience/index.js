@@ -18,6 +18,7 @@ let Experience = () => {
                     <li>
                         <div class='white-text'>
                             <h2>Jason Lore</h2>
+                            <p>I'm a highly motiviated, Technology inspired individual. My goal is to create custom solutions and environments that everyone can thrive in.</p>
                         </div>
                     </li>
                     <li>
