@@ -2,8 +2,8 @@ import React from "react";
 
 let Header = () => {
     return (
-        <header>
-            <nav class="uk-navbar-container">
+        <header class=''>
+            <nav class="glass-pane-header">
                 <div class="uk-container">
                     <div uk-navbar=''>
                         <div class="uk-navbar-center">
