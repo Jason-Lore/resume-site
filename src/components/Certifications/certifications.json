@@ -13,6 +13,42 @@
         "linkToOnlineCert": "https://learn.microsoft.com/en-us/users/jasonlearn-7194/credentials/certification/security-compliance-and-identity-fundamentals",
         "msftImage": "https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg?branch=main",
         "msftDescription": "Microsoft Certified: Security, Compliance, and Identity Fundamentals"
+      },
+      {
+        "certificationName": "AZ-900",
+        "dateOfCompletion": "Currently Studying",
+        "linkToOnlineCert": "",
+        "msftImage": "https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg?branch=main",
+        "msftDescription": "Microsoft Certified: Microsoft Azure Fundamentals"
+      },
+      {
+        "certificationName": "AI-900",
+        "dateOfCompletion": "Currently Studying",
+        "linkToOnlineCert": "",
+        "msftImage": "https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg?branch=main",
+        "msftDescription": "Microsoft Certified: Azure AI Fundamentals"
+      },
+      {
+        "certificationName": "PL-900",
+        "dateOfCompletion": "Currently Studying",
+        "linkToOnlineCert": "",
+        "msftImage": "https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg?branch=main",
+        "msftDescription": "Microsoft Certified: Microsoft Power Platform Fundamentals"
+      },
+      {
+        "certificationName": "Cisco CCNA",
+        "dateOfCompletion": "Currently Studying",
+        "linkToOnlineCert": "",
+        "msftImage": "https://images.credly.com/size/680x680/images/683783d8-eaac-4c37-a14d-11bd8a36321d/ccna_600.png",
+        "msftDescription": ""
+      }
+      ,
+      {
+        "certificationName": "Cisco DevNet",
+        "dateOfCompletion": "Currently Studying",
+        "linkToOnlineCert": "",
+        "msftImage": "https://images.credly.com/size/680x680/images/3c535132-dd19-4e1b-9861-535d27dfbbb6/DevNetPro_600.png",
+        "msftDescription": ""
       }
     ]
   }
