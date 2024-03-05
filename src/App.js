@@ -3,6 +3,7 @@ import React from 'react';
 import Header from './components/Header';
 import Certifications from './components/Certifications';
 import Experience from './components/Experience';
+import WorkHistory from './components/WorkHistory'
 
 function App() {
   return(
@@ -10,6 +11,7 @@ function App() {
       <Header/>
       <Experience/>
       <Certifications/>
+      <WorkHistory/>
     </div>
   );
 }
