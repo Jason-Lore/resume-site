@@ -7,7 +7,7 @@ let Experience = () => {
 
     return (
         <section>
-            <div class="uk-margin-medium-top">
+            <div class="uk-margin-medium-top container">
                 <ul class="uk-flex-center" uk-tab='' uk-switcher=''>
                     <li class="uk-active"><a href="/">Who I am</a></li>
                     <li><a href="/">Technical</a></li>
@@ -18,7 +18,8 @@ let Experience = () => {
                     <li>
                         <div class='white-text'>
                             <h2>Jason Lore</h2>
-                            <p>I'm a highly motiviated, Technology inspired individual. My goal is to create custom solutions and environments that everyone can thrive in.</p>
+                            <p>I'm a highly motiviated, technology inspired individual. My goal is to create custom solutions and environments that everyone can thrive in.</p>
+                            <p>I am currently getting learning Machine learning Techniques, Python, Networking, and getting certifications across the Microsoft 365 Suite and more.</p>
                         </div>
                     </li>
                     <li>
