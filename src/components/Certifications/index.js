@@ -9,7 +9,7 @@ let Certifications = () => {
 
                 <div className="uk-slider-items uk-child-width-1-1 uk-child-width-1-3@s uk-child-width-1-4@m">
                     {certificationData.certifications.map((cert, index) => (
-                        <div key={index} class="glass-pane">
+                        <div key={index} class="glass-pane certification-margin">
                         <div class="uk-card-header">
                             <div class="uk-grid-small uk-flex-middle" uk-grid=''>
                                 <div class="uk-width-auto">

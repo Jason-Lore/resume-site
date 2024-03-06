@@ -3,8 +3,8 @@ import React from "react";
 let Workhistory = () => {
     return(
         <section>
-                <div class="uk-margin-medium-top uk-margin glass-pane container">
-                        <div class='white-text'>
+                <div class="uk-margin-medium-top uk-margin glass-pane container uk-flex-center">
+                        <div class='paragraph-center'>
                             <h2>Mural Consulting</h2>
                             <h3>Microsoft365 Escalations Engineer</h3>
                             <p>Asses multiple cases to ensure proper troubleshooting has been completed for

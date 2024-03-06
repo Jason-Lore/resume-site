@@ -8,11 +8,11 @@ let Experience = () => {
     return (
         <section>
             <div class="uk-margin-medium-top container">
-                <ul class="uk-flex-center" uk-tab='' uk-switcher=''>
-                    <li class="uk-active"><a href="/">Who I am</a></li>
+                <ul class="uk-flex-center visible-text" uk-tab='' uk-switcher=''>
+                    <li class="uk-active"><a class="visible-text"href="/">Who I am</a></li>
                     <li><a href="/">Technical</a></li>
-                    <li><a href="/">Management</a></li>
-                    <li><a href="/">Customer Service</a></li>
+                    <li><a class="visible-text"href="/">Management</a></li>
+                    <li><a class="visible-text"href="/">Customer Service</a></li>
                 </ul>
                 <ul class="uk-switcher uk-margin glass-pane">
                     <li>
