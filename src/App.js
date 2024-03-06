@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Certifications from './components/Certifications';
 import Experience from './components/Experience';
 import WorkHistory from './components/WorkHistory'
+import Footer from './components/Footer'
 
 function App() {
   return(
@@ -12,6 +13,7 @@ function App() {
       <Experience/>
       <Certifications/>
       <WorkHistory/>
+      <Footer/>
     </div>
   );
 }

@@ -16,10 +16,8 @@ let Experience = () => {
                 </ul>
                 <ul class="uk-switcher uk-margin glass-pane">
                     <li>
-                        <div class='white-text'>
-                            <h2>Jason Lore</h2>
-                            <p>I'm a highly motiviated, technology inspired individual. My goal is to create custom solutions and environments that everyone can thrive in.</p>
-                            <p>I am currently getting learning Machine learning Techniques, Python, Networking, and getting certifications across the Microsoft 365 Suite and more.</p>
+                        <div class='white-text uk-flex uk-flex-center'>
+                            <p>I am a highly motivated, deeply inspired person who loves to explore the power of new technologies. My ambition is to develop innovative solutions that cater to a wide audience. My drive stems from a belief that we are capable of creating environments that are not only efficient but also inclusive and conducive to growth. I am dedicated to exploring how these can be applied to solve real-world challenges to make a meaningful impact on society.</p>
                         </div>
                     </li>
                     <li>
