@@ -12,23 +12,30 @@ let Experience = () => {
                     <li class="uk-active"><a class="visible-text"href="/">Who I am</a></li>
                     <li><a href="/">Technical</a></li>
                     <li><a class="visible-text"href="/">Management</a></li>
-                    <li><a class="visible-text"href="/">Customer Service</a></li>
                 </ul>
-                <ul class="uk-switcher uk-margin glass-pane">
+                <ul class="uk-switcher uk-margin glass-pane white-text">
                     <li>
-                        <div class='white-text uk-flex uk-flex-center'>
-                            <p>I am a highly motivated, deeply inspired person who loves to explore the power of new technologies. My ambition is to develop innovative solutions that cater to a wide audience. My drive stems from a belief that we are capable of creating environments that are not only efficient but also inclusive and conducive to growth. I am dedicated to exploring how these can be applied to solve real-world challenges to make a meaningful impact on society.</p>
+                        <div>
+                            <p>My name is Jason Offenbaker(soon to be Jason Lore),</p>
+                            <p>I am a Level 3 Microsoft365 Escalations Engineer working with Microsoft as a Partner.</p>
+                            <p>My current studies are targeted towards increasing my knowledge and understanding of modern JavaScript libraries, PowerApps, Azure Services, and Machine Learning Models.</p>
+                            <p>I love learning new things and facing challenges head on with creative out of the box solutions.</p>
+                            <p>I went to a Coding bootcamp hosted by the University of Arizona that went over MongoDB, Express, React, Node, and Computer Science topics.</p>
                         </div>
                     </li>
                     <li>
-                        <div class='white-text'>
+                        <div>
                             <p>{year - 2020}+ years of Techncial Experience in React, PowerShell, Python, and more!</p>
                             <p>Escalations Engineer and Technical Advisor for Microsoft</p>
                             <p>Constantly Learning new Technologies and Studying new Certifications</p>
                         </div>
                     </li>
-                    <li>I managed for like...2 months before my whole team was laid off</li>
-                    <li>Master of blending arts</li>
+                    <li>
+                        <p>{year - 2020}+ years of Management experience</p>
+                        <p>From managing breaks to managing complicated technical backlogs</p>
+                        <p>I've seen and conquered all challenged that have come my way.</p>
+                    
+                    </li>
                 </ul>
             </div>
         </section>

@@ -10,13 +10,12 @@ body {
 
 .glass-pane {
     /* From https://css.glass */
-    background: rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.6);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(9.4px);
     -webkit-backdrop-filter: blur(9.4px);
     border: 1px solid rgba(255, 255, 255, 0.29);
-    margin-right: 50px;
 }
 
 .glass-pane-header{
@@ -39,6 +38,10 @@ body {
     color: rgb(54, 54, 54)
 }
 
-.uk-flex-center{
-    color: rgb(54, 54, 54)
+.paragraph-center{
+    text-align: center;
+}
+
+.certification-margin{
+    margin-right: 50px;
 }

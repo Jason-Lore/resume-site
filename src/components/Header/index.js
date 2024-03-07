@@ -7,9 +7,7 @@ let Header = () => {
                 <div class="uk-container">
                     <div uk-navbar=''>
                         <div class="uk-navbar-center">
-                            <a class="uk-navbar-item " href="/">Certifications</a>
                             <a class="uk-navbar-item uk-logo" href="/">Jason Lore</a>
-                            <a class="uk-navbar-item " href="/">Resume</a>
                         </div>
                     </div>
                 </div>
