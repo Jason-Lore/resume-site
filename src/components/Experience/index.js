@@ -16,7 +16,7 @@ let Experience = () => {
                 <ul class="uk-switcher uk-margin glass-pane white-text">
                     <li>
                         <div>
-                            <p>My name is Jason Offenbaker(soon to be Jason Lore),</p>
+                            <p>My name is Jason Lore,</p>
                             <p>I am a Level 3 Microsoft365 Escalations Engineer working with Microsoft as a Partner.</p>
                             <p>My current studies are targeted towards increasing my knowledge and understanding of modern JavaScript libraries, PowerApps, Azure Services, and Machine Learning Models.</p>
                             <p>I love learning new things and facing challenges head on with creative out of the box solutions.</p>
