@@ -10,8 +10,8 @@ let Experience = () => {
             <div class="uk-margin-medium-top container">
                 <ul class="uk-flex-center visible-text" uk-tab='' uk-switcher=''>
                     <li class="uk-active"><a class="visible-text"href="/">Who I am</a></li>
-                    <li><a href="/">Technical</a></li>
-                    <li><a class="visible-text"href="/">Management</a></li>
+                    <li class="uk-active"><a href="/">Technical</a></li>
+                    <li class="uk-active"><a class="visible-text"href="/">Management</a></li>
                 </ul>
                 <ul class="uk-switcher uk-margin glass-pane white-text">
                     <li>
