@@ -9,7 +9,7 @@ let FooterSection = () => {
                         <div class="uk-navbar-center">
                             <a class="uk-navbar-item" target="_blank" rel="noreferrer" href="mailto:me@jasonlore.com">Me@JasonLore.com</a>
                             <a class="uk-navbar-item" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/jasonlore/">LinkedIn</a>
-                            <a class="uk-navbar-item" target="_blank" rel="noreferrer" href="/Jason_Offenbaker.pdf">Resume</a>
+                            <a class="uk-navbar-item" target="_blank" rel="noreferrer" href="/Jason_Lore.pdf">Resume</a>
                         </div>
                     </div>
                 </div>
