@@ -13,24 +13,24 @@ const Experience = () => {
                     uk-switcher=""
                 >
                     <li className="uk-active">
-                        <a className="visible-text" href="/">
+                        <a className="visible-text" href="/" style="color: white;">
                             Who I Am
                         </a>
                     </li>
 
                     <li>
-                        <a className="visible-text" href="/">
+                        <a className="visible-text" href="/" style="color: white;">
                             Technical
                         </a>
                     </li>
 
                     <li>
-                        <a className="visible-text" href="/">
+                        <a className="visible-text" href="/" style="color: white;">
                             Management
                         </a>
                     </li>
                     <li>
-                        <a className="visible-text" href="https://search.jasonlore.com">
+                        <a className="visible-text" href="https://search.jasonlore.com" style="color: white;">
                             My Search Engine
                         </a>
                     </li>
