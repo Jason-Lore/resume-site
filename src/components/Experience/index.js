@@ -4,6 +4,16 @@ const Experience = () => {
     const currentYear = new Date().getFullYear();
     const yearsOfExperience = currentYear - 2020;
 
+const tabStyle = {
+    color: "#fff",
+    fontWeight: 500,
+    letterSpacing: "0.06em",
+    textTransform: "uppercase",
+    textShadow: "0 2px 8px rgba(0,0,0,.75)",
+    padding: "10px 18px",
+    transition: "all .2s ease",
+};
+
     return (
         <section>
             <div className="uk-margin-medium-top container">
@@ -13,24 +23,29 @@ const Experience = () => {
                     uk-switcher=""
                 >
                     <li className="uk-active">
-                        <a className="visible-text" href="/" style="color: white;">
+                        <a className="visible-text" href="/" style={tabStyle}>
                             Who I Am
                         </a>
                     </li>
-
                     <li>
-                        <a className="visible-text" href="/" style="color: white;">
+
+                        <a className="visible-text" href="/" style={tabStyle}>
                             Technical
                         </a>
                     </li>
-
                     <li>
-                        <a className="visible-text" href="/" style="color: white;">
+
+                        <a className="visible-text" href="/" style={tabStyle}>
                             Management
                         </a>
                     </li>
                     <li>
-                        <a className="visible-text" href="https://search.jasonlore.com" style="color: white;">
+
+                        <a
+                            className="visible-text"
+                            href="https://search.jasonlore.com"
+                            style={tabStyle}
+                        >
                             My Search Engine
                         </a>
                     </li>
