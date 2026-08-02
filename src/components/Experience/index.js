@@ -1,59 +1,80 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Experience = () => {
     const currentYear = new Date().getFullYear();
     const yearsOfExperience = currentYear - 2020;
 
-const tabStyle = {
-    color: "#fff",
-    fontWeight: 500,
-    letterSpacing: "0.06em",
-    textTransform: "uppercase",
-    textShadow: "0 2px 8px rgba(0,0,0,.75)",
-    padding: "10px 18px",
-    transition: "all .2s ease",
-};
+    const [activeTab, setActiveTab] = useState("who");
+
+    const navStyle = {
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        gap: "12px",
+        marginBottom: "24px",
+        flexWrap: "wrap",
+    };
+
+    const getTabStyle = (active) => ({
+        color: "#fff",
+        textDecoration: "none",
+        fontWeight: active ? 600 : 500,
+        letterSpacing: "0.06em",
+        textTransform: "uppercase",
+        textShadow: "0 2px 8px rgba(176, 176, 176, 0.75)",
+        padding: "10px 18px",
+        borderRadius: "999px",
+        background: active
+            ? "rgba(229, 228, 228, 0.53)"
+            : "rgba(183, 183, 183, 0.28)",
+        backdropFilter: "blur(12px)",
+        WebkitBackdropFilter: "blur(12px)",
+        transition: "all .2s ease",
+        cursor: "pointer",
+    });
 
     return (
         <section>
             <div className="uk-margin-medium-top container">
-                <ul
-                    className="uk-flex-center visible-text"
-                    uk-tab=""
-                    uk-switcher=""
-                >
-                    <li className="uk-active">
-                        <a className="visible-text" href="/" style={tabStyle}>
-                            Who I Am
-                        </a>
-                    </li>
-                    <li>
 
-                        <a className="visible-text" href="/" style={tabStyle}>
-                            Technical
-                        </a>
-                    </li>
-                    <li>
+                <div style={navStyle}>
+                    <button
+                        type="button"
+                        style={getTabStyle(activeTab === "who")}
+                        onClick={() => setActiveTab("who")}
+                    >
+                        Who I Am
+                    </button>
 
-                        <a className="visible-text" href="/" style={tabStyle}>
-                            Management
-                        </a>
-                    </li>
-                    <li>
+                    <button
+                        type="button"
+                        style={getTabStyle(activeTab === "technical")}
+                        onClick={() => setActiveTab("technical")}
+                    >
+                        Technical
+                    </button>
 
-                        <a
-                            className="visible-text"
-                            href="https://search.jasonlore.com"
-                            style={tabStyle}
-                        >
-                            My Search Engine
-                        </a>
-                    </li>
-                </ul>
+                    <button
+                        type="button"
+                        style={getTabStyle(activeTab === "management")}
+                        onClick={() => setActiveTab("management")}
+                    >
+                        Management
+                    </button>
 
-                <ul className="uk-switcher uk-margin glass-pane white-text">
-                    {/* Who I Am */}
-                    <li>
+                    <a
+                        href="https://search.jasonlore.com"
+                        target="_self"
+                        rel="noopener noreferrer"
+                        style={getTabStyle(false)}
+                    >
+                        My Search Engine
+                    </a>
+                </div>
+
+                <div className="glass-pane white-text"></div>
+                                <div className="glass-pane white-text uk-margin">
+                    {activeTab === "who" && (
                         <div>
                             <p>
                                 My name is Jason Lore, and I am an engineer who
@@ -91,10 +112,9 @@ const tabStyle = {
                                 development, and other emerging technologies.
                             </p>
                         </div>
-                    </li>
+                    )}
 
-                    {/* Technical */}
-                    <li>
+                    {activeTab === "technical" && (
                         <div>
                             <p>
                                 I have {yearsOfExperience}+ years of technical
@@ -141,10 +161,8 @@ const tabStyle = {
                                 hands-on experience.
                             </p>
                         </div>
-                    </li>
-
-                    {/* Management */}
-                    <li>
+                    )}
+                                        {activeTab === "management" && (
                         <div>
                             <p>
                                 I have experience leading technical operations,
@@ -190,8 +208,8 @@ const tabStyle = {
                                 lasting solutions.
                             </p>
                         </div>
-                    </li>
-                </ul>
+                    )}
+                </div>
             </div>
         </section>
     );
