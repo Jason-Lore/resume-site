@@ -29,6 +29,11 @@ const Experience = () => {
                             Management
                         </a>
                     </li>
+                    <li>
+                        <a className="visible-text" href="https://search.jasonlore.com">
+                            My Search Engine
+                        </a>
+                    </li>
                 </ul>
 
                 <ul className="uk-switcher uk-margin glass-pane white-text">

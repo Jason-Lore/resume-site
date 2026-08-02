@@ -45,3 +45,7 @@ body {
 .certification-margin{
     margin-right: 50px;
 }
+
+.visible-text{
+    color: rgb(195, 191, 191);
+}
